@@ -459,7 +459,7 @@ class WebViewState extends State<WebView> with WebeViewTextInput {
                 event.panDelta.dx.round(), event.panDelta.dy.round());
           },
           child: MouseRegion(
-            cursor: _mouseType,
+            cursor: SystemMouseCursors.none,
             child: Texture(textureId: _controller._textureId),
           ),
         ),
